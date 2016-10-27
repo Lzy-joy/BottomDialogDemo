@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="显示BottomDialog" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="这个view封装的相当到位，代码注释详细，易于理解与学习，在测试中的调用简单明了，如果项目中有需求可直接用在项目中运用"
+        android:textSize="16sp"
+        android:textColor="#EE0000" />
+    
+    <TextView 
+        android:id="@+id/tv_ceshi_aphla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="啊哈，咦嘻！能不能看清我？"
+        android:layout_marginTop="200dp"
+        />
+
+</LinearLayout>
